@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column; 
+  justify-content:center ;
+  align-items: center;
+  background: linear-gradient(90deg, #a2eaec,#7deeff,#aae1e9);
+  width: 100%;
+  min-height:100vh ;
+
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-height:600px ;
+  background: #ecf0f1 ;
+  border-radius: 12px;
+  align-items: center;
+}
+.logo{
+  margin-top: 50px;
+  opacity: 0.95;
+}
+.textInitSesion{
+   margin-top: 15px;
+   font-size: xx-large;
+
+}
+.divLogin{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.icon{
+  vertical-align: middle;
+  font-size: 35px;
+  color: #00adfd;
+}
+.icon2{
+  vertical-align: middle;
+  font-size: 24px;
+  margin-right: 2px;
+}
+.inputEmail{
+  width: 300px;
+  height: 32px;
+  border-radius: 6px;
+  border-style: none;
+  padding-left: 10px;
+  border-color: #aae1e9;
+  border: 1px solid #aae1e9;
+}
+.inputEmail:focus{
+  outline: none;
+  border: 2px solid #aae1e9;
+}
+
+.btnInitSesion{
+    height: 32px;
+    margin-top: 15px;
+}
